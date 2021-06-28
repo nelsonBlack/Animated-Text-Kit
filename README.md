@@ -58,6 +58,7 @@
 
 # Table of contents
 
+- [Flutter Package of the Week](#flutter-package-of-the-week)
 - [Installing](#installing)
 - [Usage](#usage)
   - [New with Version 3](#new-with-version-3)
@@ -73,8 +74,14 @@
   - [Flicker](#flicker)
   - [Create your own Animations](#create-your-own-animations)
 - [Bugs or Requests](#bugs-or-requests)
-- [Donate](#donate)
 - [Contributors](#contributors)
+
+# Flutter Package of the Week
+
+<a href="https://youtu.be/foQTKCQqVWk" target="_blank">
+    <img src="https://github.com/aagarwal1012/Animated-Text-Kit/blob/master/display/flutter_package_of_the_week.PNG?raw=true"
+      alt="Flutter Package of the Week" />
+</a>
 
 # Installing
 
@@ -221,7 +228,7 @@ Row(
           RotateAnimatedText('AWESOME'),
           RotateAnimatedText('OPTIMISTIC'),
           RotateAnimatedText('DIFFERENT'),
-        ]
+        ],
         onTap: () {
           print("Tap Event");
         },
@@ -277,7 +284,7 @@ return SizedBox(
         TyperAnimatedText('you must know what to do,'),
         TyperAnimatedText('and then do your best'),
         TyperAnimatedText('- W.Edwards Deming'),
-      ]
+      ],
       onTap: () {
         print("Tap Event");
       },
